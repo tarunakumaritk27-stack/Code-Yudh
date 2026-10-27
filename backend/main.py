@@ -31,8 +31,7 @@ except ImportError:
 
 MODEL_NAME = os.getenv("AI_MODEL_NAME", "umm-maybe/AI-image-detector")
 MAX_FILE_SIZE = 25 * 1024 * 1024  # 25 MB
-PORT = 8001
-
+PORT = int(os.getenv("PORT", "8001"))
 AI_TAG_KEYWORDS = [
     "prompt", "negative_prompt", "steps", "sampler", "cfg_scale",
     "seed", "model_hash", "midjourney", "dall-e", "stablediffusion",
