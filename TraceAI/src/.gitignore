@@ -1,0 +1,49 @@
+
+# ==============================
+# PYTHON BACKEND
+# ==============================
+backend/.venv/
+backend/venv/
+backend/__pycache__/
+backend/*.pyc
+backend/.pytest_cache/
+backend/.mypy_cache/
+backend/.coverage
+backend/.env
+backend/node_modules/
+
+# ==============================
+# FRONTEND (VITE / REACT)
+# ==============================
+TraceAI/node_modules/
+TraceAI/dist/
+
+# ==============================
+# ENVIRONMENT VARIABLES & SECRETS
+# ==============================
+.env
+.env.*
+!.env.example
+backend/.env
+TraceAI/.env
+
+# ==============================
+# BUILD OUTPUTS
+# ==============================
+build/
+dist/
+coverage/
+
+# ==============================
+# EDITOR & OPERATING SYSTEM
+# ==============================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ==============================
+# LOG FILES
+# ==============================
+*.log
+npm-debug.log*

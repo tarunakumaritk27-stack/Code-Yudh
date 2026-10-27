@@ -1,0 +1,15 @@
+backend/.venv/
+backend/venv/
+backend/node_modules/
+backend/__pycache__/
+backend/*.pyc
+backend/.env
+TraceAI/node_modules/
+TraceAI/dist/
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
