@@ -6,4 +6,3 @@ ImageHash
 numpy
 Pillow
 transformers
-torch
